@@ -1,0 +1,165 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+  /* background-color: #393e46;
+  color: #fff; */
+  /* background-color: #393e46; */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+  font-size: 1rem;
+}
+
+.big-heading {
+  font-family: 'Sacramento';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5rem;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Container */
+.colored-section {
+  /* background-color: #145374; */
+  background-color: #065446;
+  /* background-color: #e8ded2; */
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigarion Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Great Vibes";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download buttion */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* image title */
+.personal-image {
+  border-radius: 4%;
+  position: absolute;
+  right: 5%;
+}
+
+/* Feature Section */
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  /* color: #43658b; */
+  color: #ffd57e;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #4e89ae;
+}
+
+/* Testimonials section */
+#testimonials {
+  /* background-color: #43658b; */
+  background-color: #fab95b;
+}
+.testimonials-text{
+  text-align: center;
+  line-height: 1.5;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+
+/* CTA Section */
+.cta-heading {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* footer section */
+#footer{
+  padding: 0px;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+
+@media(max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .personal-image {
+    position: static;
+  }
